@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{min-height: 100vh;
+    width:100%;
+    background-image:url(camera.JPG);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    background-image: linear-gradient((rgba(4,9,30,0.7),rgba(4,9,30,0.7)));
+    display: flex;
+    padding:2% 6% ;
+    justify-content:space-between;
+    align-items: center;
+}
+.navigation{
+    text-align:right;
+} 
+.navigation>ul>li{
+display:inline-block;
+padding:8px 12px;
+list-style: none;
+}
+.navigation>ul>li>a{
+text-decoration: none;
+color: aliceblue;
+font-size: 18px;
+}
+.header>nav>h1{
+font-size:40px;
+color:aliceblue;
+}
+.heading{
+text-align: center;
+margin:160px 100px;
+color:aliceblue;
+width: 90%;
+font-size: 50px;
+}
+.heading>h1{
+    font-size: 60px;
+}    
+.margin>.button{
+    border:1px red solid;
+    text-decoration: none;
+    color: aliceblue;
+    background: transparent;
+    padding:15px;
+    /* font-size: 20px; */
+    margin-top:40px;
+    font-size: 20px;
+    border-radius:5px;
+}
+.margin>.button:hover{
+    transition: 0.5s;
+    background:white;
+    color:black;
+}
+.margin{
+    margin-top: 30px;
+}
+.margin>.buttonsub{
+    border:1px red solid;
+    text-decoration: none;
+    color:black;
+    background: white;
+    padding:15px;
+    font-size: 20px;
+    margin-top:40px;
+    border-radius:5px;
+    
+
+}
+.margin>.buttonsub:hover{
+    transition: 0.5s;
+    background: transparent;
+    color:white;
+}
